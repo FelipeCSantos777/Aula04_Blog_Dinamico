@@ -34,4 +34,25 @@ for (var i=0; i<posts.length; i++) {
     article.appendChild(content);
     
     wrapper.appendChild(article);
+    
 }
+
+
+-------------------------------------------------------------------------------------------------
+
+Estrutura antiga do section do html
+
+<article class="article">
+                    <h2 class="article-title">Post 1</h2>
+                    <p>Texto qualquer para paragrafo</p>
+                </article>
+
+                <article class="article">
+                    <h2 class="article-title">Post 2</h2>
+                    <p>Texto qualquer para paragrafo</p>
+                </article class="article">
+
+                <article class="article">
+                    <h2 class="article-title">Post 3</h2>
+                    <p>Texto qualquer para paragrafo</p>
+                </article>
